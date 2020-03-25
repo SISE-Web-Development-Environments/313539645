@@ -79,3 +79,22 @@ body{
     font-family: "Comic Sans MS", cursive, sans-serif;
 	text-align:center;
 }
+
+#contactPic {
+    border: 10px solid transparent;
+  padding: 5px;
+  border-image: url(border.png) 30 stretch;
+  }
+
+  #goodbye {
+	text-shadow: 2px 1px red;
+	font-size: 40px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+	text-align:center;
+	font-weight: bold;
+}
+#goodbyePic {
+	border: 10px solid transparent;
+
+	border-image: url(border.png) 50 round;
+  }
