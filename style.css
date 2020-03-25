@@ -9,7 +9,7 @@ body{
 
 #menu
 {
-	width: 750px;
+	width: 768px;
 	height: 35px;
 	margin: 0 auto;
 	background: rgb(75, 71, 71);
@@ -44,7 +44,7 @@ body{
 	padding: 10px 16px;
 	text-decoration: none;
 	font-size: 15px;
-	width: 75px;
+	width: 70px;
   }
   
   /* Change the color of links on hover */
