@@ -2,6 +2,14 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css" />
+  <!-- emoji -->
+<link rel="stylesheet" href="emoji/emojionearea.min.css">
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script src="emoji/emojionearea.min.js"></script>
+
 </head>
 <body>
 <div id="menu">
@@ -103,7 +111,7 @@ Michael Jackson ‘XSCAPE’ Album (May 13, 2014)
     Scan MJ Code
   </div>
 <br/>
-<img src="qr-code.png" width=150 height=150 class="image" style="float:center">
+<img src="qr-code.png" id="QR">
 <br/>
 <br/>
 <br/>
@@ -117,6 +125,7 @@ Michael Jackson ‘XSCAPE’ Album (May 13, 2014)
 </div>
 <br/>
 <br/>
+
 <br/>
 <br/>
 <br/>
@@ -129,7 +138,6 @@ Michael Jackson ‘XSCAPE’ Album (May 13, 2014)
 <br/>
 <br/>
 <br/>
-ans
 <br/>
 <br/>
 <br/>
@@ -159,7 +167,21 @@ ans
 <img id="contactPic" src="MJ_contact.jpg" width=250 height=200 class="image">
 <br/>
 <br/>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdPlXLOXTr1YS2Dq_jmcTdF4ruVoWTq6ayW21dPb22e2RIOrA/viewform?usp=sf_link" width="560" height="400" frameborder="0" marginheight="0" marginwidth="0">טוען...</iframe><br/>
+
+<div class="container">
+  <form encrypte="text/plain" action="mailto:naorbe@post.bgu.ac.il" method="POST">
+
+    <label for="fname">Sender E-mail</label>
+    <input type="text" id="fname" name="firstname" placeholder="please write your E-mail..">
+
+    <label for="subject">Message content</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+ 
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+
+  </form>
+</div>
 </section>
 <br/>
 <br/>
@@ -190,5 +212,16 @@ $(function(){
     $('#menu').toggle($(this).scrollTop()>1000)
  });​
  </script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $("#subject").emojioneArea();
+    standalone: true;
+
+  });
+</script>
+
+
+
 </body>
 </html>
