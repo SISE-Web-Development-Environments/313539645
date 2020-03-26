@@ -16,7 +16,7 @@ body{
 	overflow: hidden;
 }
 
-  li {
+  .category {
 	display: inline;
   }
 /*
@@ -62,7 +62,7 @@ body{
   .Title{
 	text-shadow: 2px 1px red;
 	font-family: Impact, Charcoal, sans-serif;
-    font-size: 30px;
+    font-size: 36px;
     font-weight: bold;
 }
 .details{
@@ -78,6 +78,13 @@ body{
 	font-size: 16px;
     font-family: "Comic Sans MS", cursive, sans-serif;
 	text-align:center;
+}
+
+.question{
+	font-size: 28px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	text-decoration: underline;
+	text-align:center
 }
 
 #contactPic {
@@ -149,3 +156,35 @@ input[type=text], select, textarea {
 	margin-right: 37%;
 	height: 270px;
   }
+  table {
+	width:55%;
+	margin-left: 24%;
+  }
+  table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+  }
+  th, td {
+	padding: 15px;
+	text-align: center;
+	
+  }
+  table#t01 tr:nth-child(even) {
+	background-color: #eee;
+  }
+  table#t01 tr:nth-child(odd) {
+   background-color: #fff;
+  }
+  table#t01 th {
+	background-color: #a90c0cf0;
+	color: white;
+	text-align:center;
+  }
+  #ans2{
+	font-size: 18px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-align:center;
+	margin-left:26%;
+	margin-right:26%;
+	text-align: justify;
+}
