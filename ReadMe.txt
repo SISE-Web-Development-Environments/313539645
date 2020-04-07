@@ -5,7 +5,7 @@
 לחלופין, ניתן ללחוץ על כפתור ה-"reset" ולאפס את הטופס.
 
 כתובת האתר
-https://sise-web-development-environments.github.io/assignment1-NaorBenEvgi/
+https://sise-web-development-environments.github.io/313539645/
 
 נאור בן איבגי	
 313539645
