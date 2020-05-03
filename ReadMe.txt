@@ -7,5 +7,3 @@
 כתובת האתר
 https://sise-web-development-environments.github.io/assignment1-HTML-website/
 
-נאור בן איבגי	
-313539645
